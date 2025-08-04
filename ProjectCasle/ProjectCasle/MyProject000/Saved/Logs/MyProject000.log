@@ -1315,3 +1315,61 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.08.04-14.49.29:128][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 693.696228
 [2025.08.04-14.49.30:475][512]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.04-14.49.30:475][512]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 694.698853, Update Interval: 314.229553
+[2025.08.04-14.52.48:007][283]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.08.04-14.52.50:241][412]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.08.04-14.52.50:241][412]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.08.04-14.52.50:256][412]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_089798A3FBE0108202_1847858591
+[2025.08.04-14.52.50:261][412]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_089798A3FBE0108202_1847858591
+[2025.08.04-14.52.55:389][654]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: ================================================
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: Total job queries 190, among them cache hits 17 (8.95%), DDC hits 162 (85.26%), Duplicates 7 (3.68%)
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: Tracking 166 distinct input hashes that result in 157 distinct outputs (94.58%)
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: RAM used: 5,38 MiB of 819,20 MiB budget. Usage: 0.66%
+[2025.08.04-14.53.09:134][218]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.04-14.53.09:144][218]LogShaderCompilers: Display: Shaders Compiled: 4
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.12 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Job execution time: average 7.27 s, max 7.65 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Job life time (pending + execution): average 7.38 s, max 7.77
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Shader code size: average 34,279 KiB, min 31,945 KiB, max 37,27 KiB
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.77 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Average processing rate: 0.51 jobs/sec
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Total thread time: 9,115 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Total thread preprocess time: 3,743 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Percentage time preprocessing: 41.06%
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 2.66 sec, max 2.66 sec, min 2.66 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 2.30 sec, max 2.30 sec, min 2.30 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 2.24 sec, max 2.24 sec, min 2.24 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.91 sec, max 1.91 sec, min 1.91 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.16% of total time (compiled    1 times, average 2.66 sec, max 2.66 sec, min 2.66 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 25.24% of total time (compiled    1 times, average 2.30 sec, max 2.30 sec, min 2.30 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.62% of total time (compiled    1 times, average 2.24 sec, max 2.24 sec, min 2.24 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.97% of total time (compiled    1 times, average 1.91 sec, max 1.91 sec, min 1.91 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: === Material stats ===
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Materials Translated:    119
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Material Translation Only: 0.05 s (39%)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: Material Cache Hits: 19 (16%)
+[2025.08.04-14.53.09:145][218]LogShaderCompilers: Display: ================================================
+[2025.08.04-14.53.10:395][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-14.53.10:511][281]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/XN/83TRI7A1Q06Y0UCRN4JIRB
+[2025.08.04-14.53.10:511][281]LogSavePackage: Moving '../../../../../../ProjectCasle/ProjectCasle/ProjectCasle/MyProject000/Saved/83TRI7A1Q06Y0UCRN4JIRBB743CC1E4D1E8E926F9B3F8586F17377.tmp' to '../../../../../../ProjectCasle/ProjectCasle/ProjectCasle/MyProject000/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/XN/83TRI7A1Q06Y0UCRN4JIRB.uasset'
+[2025.08.04-14.53.10:536][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.989 ms (total: 1.57 sec)
+[2025.08.04-14.53.10:665][281]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-14.53.10:665][281]LogContentValidation: Enabled validators:
+[2025.08.04-14.53.10:665][281]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-14.53.10:665][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-14.53.10:665][281]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-14.53.10:674][281]LogContentValidation: Display: Validating asset /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.08.04-14.53.10:674][281]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.08.04-14.53.11:924][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
