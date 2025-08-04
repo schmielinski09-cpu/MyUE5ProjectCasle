@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/ProjectCasle/ProjectCasle/ProjectCasle/MyProjectCasle/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/ProjectCasle/ProjectCasle/ProjectCasle/MyProjectCasle/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/SE/OLWIF0W6K213MDG3TV5WAT.uasset"
+			]
+		}
+	]
+}
